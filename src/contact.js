@@ -1,4 +1,4 @@
-import locationMap from './src/map.jpg'
+import locationMap from './map.jpg'
 function createContacts() {
     const container = document.getElementById('content')
     container.replaceChildren()  // clear dom
