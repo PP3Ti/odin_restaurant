@@ -1,3 +1,4 @@
+import mapLocation from './map.jpg'
 function createContacts() {
     const container = document.getElementById('content')
     container.replaceChildren()  // clear dom
@@ -14,7 +15,7 @@ function createContacts() {
     const address = document.createElement('p')
     address.textContent = '221B Baker Street, London'
     const map = document.createElement('img')
-    map.src = './map.jpg'
+    map.src = mapLocation
     map.alt = 'map of location'
 
     contacts.append(getIn, tel, email, address, map)
