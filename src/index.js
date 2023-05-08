@@ -1,7 +1,7 @@
 import './styles.sass'
 import createHome from './home'
 import createMenu from './menu'
-import createContact from './contact'
+import createContacts from './contact'
 
 createHome()    // start on home page
 
@@ -11,4 +11,4 @@ const contact = document.getElementById('contactButton')
 
 home.addEventListener('click', createHome)
 menu.addEventListener('click', createMenu)
-contact.addEventListener('click', createContact)
+contact.addEventListener('click', createContacts)

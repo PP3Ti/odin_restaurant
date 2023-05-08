@@ -12,9 +12,10 @@ function createContact() {
     const email = document.createElement('p')
     email.textContent = 'pizzayou@email.com'
     const address = document.createElement('p')
-    address.textContent = 'London, 221B Baker Street'
+    address.textContent = '221B Baker Street, London'
     const map = document.createElement('img')
-    map.src = './map.png'
+    map.src = '../src/map.jpg'
+    map.alt = 'map of location'
 
     contacts.append(getIn, tel, email, address, map)
     container.appendChild(contacts)
